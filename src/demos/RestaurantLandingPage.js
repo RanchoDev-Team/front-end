@@ -14,23 +14,23 @@ import Footer from "components/footers/FiveColumnWithInputForm.js";
 import chefIconImageSrc from "images/chef-icon.svg";
 import celebrationIconImageSrc from "images/celebration-icon.svg";
 import shopIconImageSrc from "images/shop-icon.svg";
+import homeImage from "images/foto-home.png";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
-  const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
-  const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
+  const HighlightedText = tw.span`bg-primary-500 border-2 border-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
+  const HighlightedTextInverse = tw.span`bg-white border-2 border-primary-500 text-primary-500 px-4 transform -skew-x-12 inline-block`;
   const Description = tw.span`inline-block mt-8`;
   const imageCss = tw`rounded-4xl`;
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>Delicious & Affordable <HighlightedText>Meals Near You.</HighlightedText></>}
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        imageSrc="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+        heading={<>Evento on-line<HighlightedText>25 de Setembro</HighlightedText><HighlightedTextInverse>2021</HighlightedTextInverse></>}
+        description="Um evento de Devs para Devs, onde compartilhamos conhecimento na área de tecnologia! =]"
+        imageSrc={homeImage}
         imageCss={imageCss}
         imageDecoratorBlob={true}
-        primaryButtonText="Order Now"
-        watchVideoButtonText="Meet The Chefs"
+        primaryButtonText="Garanta já seu ingresso"
       />
       <MainFeature
         subheading={<Subheading>Established Since 2014</Subheading>}
