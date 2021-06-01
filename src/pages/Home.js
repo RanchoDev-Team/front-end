@@ -5,7 +5,7 @@ import Hero from "components/hero/TwoColumnWithVideo.js";
 import Features from "components/features/ThreeColSimple.js";
 import MainFeature from "components/features/TwoColWithButton.js";
 import Footer from "components/footers/FiveColumnWithInputForm.js";
-import eduzzLogoImage from "images/eduzz-logo.png";
+import rockyLogoImage from "images/rocky-logo.png";
 import homeImage from "images/foto-home.png";
 import woodsImage from "images/woods.png";
 import OldEvents from "components/ranchodev/OldEvents";
@@ -59,16 +59,8 @@ const Home = () => {
         }
         cards={[
           {
-            imageSrc: eduzzLogoImage,
-            url: "https://google.com"
-          },
-          {
-            imageSrc: eduzzLogoImage,
-            url: "https://timerse.com"
-          },
-          {
-            imageSrc: eduzzLogoImage,
-            url: "https://reddit.com"
+            imageSrc: rockyLogoImage,
+            url: "https://rocky.ag/"
           }
         ]}
         imageCss={tw`w-full! h-auto p-8!`}

@@ -5,23 +5,13 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
 import Features from "components/features/ThreeColSimple.js";
 import MainFeature from "components/features/TwoColWithButton.js";
-import MainFeature2 from "components/features/TwoColSingleFeatureWithStats2.js";
-import TabGrid from "components/cards/TabCardGrid.js";
-import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
-import DownloadApp from "components/cta/DownloadApp.js";
 import Footer from "components/footers/FiveColumnWithInputForm.js";
-import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
-import chefIconImageSrc from "images/chef-icon.svg";
-import celebrationIconImageSrc from "images/celebration-icon.svg";
-import shopIconImageSrc from "images/shop-icon.svg";
-import eduzzLogoImage from "images/eduzz-logo.png";
+import rockyLogoImage from "images/rocky-logo.png";
 import homeImage from "images/foto-home.png";
 import woodsImage from "images/woods.png";
 import OldEvents from "components/ranchodev/OldEvents";
 
 export default () => {
-  const Subheading = tw.span`tracking-wider text-sm font-medium`;
-  
   const HighlightedText = tw.span`bg-primary-500 border-2 border-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
   const HighlightedTextInverse = tw.span`bg-white border-2 border-primary-500 text-primary-500 px-4 transform -skew-x-12 inline-block`;
   const Description = tw.span`inline-block mt-8`;
@@ -70,17 +60,9 @@ export default () => {
         }
         cards={[
           {
-            imageSrc: eduzzLogoImage,
-            url: "https://google.com"
+            imageSrc: rockyLogoImage,
+            url: "https://rocky.ag/"
           },
-          {
-            imageSrc: eduzzLogoImage,
-            url: "https://timerse.com"
-          },
-          {
-            imageSrc: eduzzLogoImage,
-            url: "https://reddit.com"
-          }
         ]}
         imageCss={tw`w-full! h-auto p-8!`}
       />
