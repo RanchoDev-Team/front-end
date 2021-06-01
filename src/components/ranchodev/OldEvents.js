@@ -79,11 +79,11 @@ export default ({
   ]
 }) => {
   return (
-    <AnimationRevealPage id="old-events">
+    <AnimationRevealPage>
       <SectionTitle>
         Eventos <HighlightedText>Anteriores</HighlightedText>
       </SectionTitle>
-      <Posts>
+      <Posts id="old-events">
         {posts.map((post, index) => (
           <PostContainer key={index} featured={post.featured}>
             <Post className="group" as="a" href={post.url}>

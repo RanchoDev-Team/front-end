@@ -26,7 +26,6 @@ const Home = () => {
         primaryButtonText="Garanta já seu ingresso"
       />
       <MainFeature
-        id="about"
         heading={
           <>
             Sobre o evento
@@ -51,7 +50,6 @@ const Home = () => {
       <OldEvents />
 
       <Features
-        id="support"
         heading={
           <>
             Apoiadores ❤️
