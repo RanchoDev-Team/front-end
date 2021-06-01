@@ -1,6 +1,6 @@
 {
-  "short_name": "Treact",
-  "name": "Treact - Modern React Templates and Components for building Landing Pages",
+  "short_name": "Ranchodev",
+  "name": "Ranchodev - Um evento de Devs para Devs",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#da042d",
   "background_color": "#ffffff"
 }
