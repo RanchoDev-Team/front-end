@@ -1,21 +1,23 @@
-import React, { useState } from "react";
-import AnimationRevealPage from "helpers/AnimationRevealPage.js";
-import { Container, ContentWithPaddingXl } from "components/misc/Layouts";
-import tw from "twin.macro";
+import React from "react";
 import styled from "styled-components";
+import tw from "twin.macro";
 import { css } from "styled-components/macro";
-import Header from "components/headers/light.js";
-import Footer from "components/footers/FiveColumnWithInputForm.js";
-import { SectionHeading } from "components/misc/Headings";
-import { PrimaryButton } from "components/misc/Buttons";
+
+// ASSETS
 import event2016Image from "images/event2016.jpeg";
 import event2017Image from "images/event2017.jpeg";
 import event2018Image from "images/event2018.jpeg";
 import event2019Image from "images/event2019.jpeg";
 
+// COMPONENTS
+import { SectionHeading } from "components/misc/Headings";
+
+// HELPERS
+import AnimationRevealPage from "helpers/AnimationRevealPage.js";
+
+// STYLES
 import 'styles/overrideOldEvents.css';
 
-const HeadingRow = tw.div`flex`;
 const SectionTitle = tw(SectionHeading)``;
 const HighlightedText = tw.span`bg-primary-500 border-2 border-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
 const Posts = tw.div`mt-6 sm:-mr-8 flex flex-wrap`;
@@ -47,7 +49,6 @@ const Image = styled.div`
 const Info = tw.div`p-8 border-2 border-t-0 rounded-lg rounded-t-none`;
 const Category = tw.div`uppercase text-primary-500 text-xs font-bold tracking-widest leading-loose after:content after:block after:border-b-2 after:border-primary-500 after:w-8`;
 const CreationDate = tw.div`mt-4 uppercase text-gray-600 italic font-semibold text-xs`;
-const Title = tw.div`mt-1 font-black text-2xl text-gray-900 group-hover:text-primary-500 transition duration-300`;
 const Description = tw.div``;
 
 export default ({
@@ -56,25 +57,25 @@ export default ({
       imageSrc: event2016Image,
       category: "2016",
       date: "16 de setembro, 2016",
-      url: "https://timerse.com",
+      url: "#",
     },
     {
       imageSrc: event2017Image,
       category: "2017",
       date: "19 de setembro, 2017",
-      url: "https://timerse.com",
+      url: "#",
     },
     {
       imageSrc: event2018Image,
       category: "2018",
       date: "29 de setembro, 2018",
-      url: "https://timerse.com",
+      url: "#",
     },
     {
       imageSrc: event2019Image,
       category: "2019",
       date: "28 de setembro, 2019",
-      url: "https://timerse.com",
+      url: "#",
     },
   ]
 }) => {

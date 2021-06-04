@@ -23,4 +23,12 @@ Run as a development server:
 $ npm run dev
 ```
 
+## 🦾 Deploy
+
+To deploy the current branch:
+
+```bash
+$ npm run deploy
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
