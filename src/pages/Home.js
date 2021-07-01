@@ -24,6 +24,7 @@ const Home = () => {
         imageCss={imageCss}
         imageDecoratorBlob={true}
         primaryButtonText="Garanta já seu ingresso"
+        primaryButtonUrl="https://ranchodev.4.events/"
       />
       <MainFeature
         heading={
